@@ -1,0 +1,34 @@
+{
+    "name": "cshaptx4869/phpquery",
+    "description": "base on https://code.google.com/archive/p/phpquery/",
+    "type": "library",
+    "keywords": [
+        "phpQuery"
+    ],
+    "homepage": "https://code.google.com/archive/p/phpquery/",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "cshaptx4869",
+            "email": "994774638@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">5.0"
+    },
+    "autoload": {
+        "files": [
+            "src/phpQuery/phpQuery.php"
+        ]
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://mirrors.aliyun.com/composer/"
+        },
+        {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        }
+    ]
+}
